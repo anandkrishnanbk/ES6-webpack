@@ -1,0 +1,19 @@
+{
+  "name": "es6-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server --content-base ./dist --port 3000 --open",
+    "build": "node ./node_modules/webpack/bin/webpack & cp src/index.html dist/index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.8.1"
+  }
+}
